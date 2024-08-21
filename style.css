@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    height:100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container{
+    height:100vh;
+    position: relative;
+    width:100%;
+    overflow: hidden;
+    top:0px;
+    left:0px;
+    z-index: 1;
+}
+
+.bg-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensures the video covers the entire container */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero:hover{
+    cursor:zoom-in
+
+}
+
+.hero{
+    position:absolute;
+    z-index: 2;
+    top:5px;
+    height:100%;
+    /* border:1px solid red ; */
+   width: 100%;
+   overflow: hidden;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+
+    
+}
+.navbar{
+    color: aliceblue;
+    /* border:1px solid rgb(242, 238, 238) ; */
+    width: 100%;
+    height:6%;
+    position:fixed;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    position: relative;
+    top:2%;
+   }
+.navbar>h1{
+    font-size:20px;
+}
+.hero-h1:hover{
+    border: 1px solid white;
+  
+   border-radius:5px ;
+}
+.hero-h2:hover{
+    border: 1px solid white;
+   padding:2px 2px;
+   border-radius:5px ;
+}
+.hero-h3:hover{
+    border: 1px solid white;
+   padding:2px 2px;
+   border-radius:5px ;
+}
+.hero-h4:hover{
+    border: 1px solid white;
+   padding:2px 2px;
+   border-radius:5px ;
+}
+.hero-res{
+    color: white;
+    position: fixed;
+    top:20%;
+    left:5%;
+}
+.hero-heading{
+    /* border: 1px solid red; */
+    position: relative;
+    top:3%;
+}
+.hero-heading>p
+{
+    top:20%;
+    position: relative;
+    font-size: 50px;
+    color: white;
+}
+.hero-p2{
+    font-size:100px;
+}
+.hero-p1:hover{
+    border: 1px solid white;
+    padding:2px 2px;
+    border-radius:5px ;
+}
+.hero-p2:hover{
+    border: 1px solid white;
+    padding:1px 1px;
+    border-radius:5px ;
+}
+.hero-p3{
+    color: white;
+    font-size: 50px;
+}
+.about{
+    background-color: black;
+    height:100vh;
+  display: flex;
+
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ /* border: 1px solid red; */
+}
+.hero-about{
+    height:50%;
+    width: 50%;
+   
+}
+.hero-about>h1{
+    color: white;
+    text-align: center;
+}
+
+.hero-btn{
+   
+    height:10% ;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.know-btn{
+    width:100%;
+    height: 100%;
+    border-radius:50px;
+    padding:10px 15px;
+    padding:10px 15px;
+    border: 1px solid white;
+    color:black;
+    background-color: white;
+}
+.hero-ac{
+    width:20%;
+    height: 100%;
+}
+.hero-ac2{
+    width:20%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.ct-btn{
+    width:100%;
+    height: 100%;
+     border-radius:50px;
+    padding:10px 15px;
+    border: 1px solid white;
+    color: rgba(238, 232, 232, 0.958);
+    background-color: black;
+}
+.know-btn:hover{
+    cursor: grab;
+}
+.ct-btn:hover{
+    cursor: grab;
+}
